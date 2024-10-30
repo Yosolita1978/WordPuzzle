@@ -19,3 +19,50 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.scrabble-container {
+  display: flex;
+  gap: 5px;
+}
+
+.scrabble-tile {
+  display: flex; /* Use flexbox to center content */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  width: 70px;
+  height: 70px;
+  background-color: #f5d6b3; /* Scrabble tile color */
+  border: 2px solid #8b4513; /* Darker border to simulate tile edges */
+  border-radius: 4px;
+  font-size: 3.0rem;
+  font-weight: bold;
+  color: #333;
+  text-align:center;
+  line-height: 40px;
+  font-family: "Arial", sans-serif;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Add shadow for 3D effect */
+}
+
+
+.suggestion-placeholder {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px; /* Optional spacing between rows of suggestions */
+}
+
+.suggestion-tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  background-color: #f5d6b3;
+  border: 2px solid #8b4513;
+  border-radius: 4px;
+  font-size: 3.0rem;
+  font-weight: bold;
+  color: #333;
+  font-family: "Arial", sans-serif;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Consistent 3D effect */
+}

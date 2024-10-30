@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import words from "@/logic/common_words";
 import Suggestions from "./suggestions";
+import Word from "./word";
 
 
 export default function Form() {
@@ -34,7 +34,8 @@ export default function Form() {
             <button className='w-full h-10 rounded-md bg-[#d8761a] px-8 shadow transition-colors hover:bg-blue-800"' type="submit">Submit</button>
 
         </form>
-        <Suggestions userWord={userWord}/>
+        <Suggestions userWord={userWord} />
+        <Word userWord={userWord} />
         </>
     )
 }
